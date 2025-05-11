@@ -26,3 +26,4 @@ A simple command-line interface (CLI) application in Python to manage your perso
 
 ```bash
 python main.py
+```
