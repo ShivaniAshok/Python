@@ -3,7 +3,7 @@ from bson import ObjectId
 
 #Not a good idea to include id & password in code files
 #tlsAllowInvalidCertificates=True - Not a good way to handle ssl
-client=MongoClient("mongodb+srv://youtubepy:youtubepy@cluster0.j3iuaow.mongodb.net/",tlsAllowInvalidCertificates=True)
+client=MongoClient("mongodb+srv://your_userid:your_password@cluster0.j3iuaow.mongodb.net/",tlsAllowInvalidCertificates=True)
 db=client["ytmanager"]
 video_collection=db["videos"]
 
